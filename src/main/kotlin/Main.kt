@@ -1,3 +1,5 @@
 fun main() {
-    println("Hello, Kotlin!")
+    println(greet("Kotlin"))
+    val user = User("Alice", 30)
+    println(user)
 }
